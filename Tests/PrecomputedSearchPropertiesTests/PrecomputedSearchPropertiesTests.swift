@@ -13,6 +13,7 @@ let testMacros: [String: Macro.Type] = [
 ]
 #endif
 
+
 final class PrecomputedSearchPropertiesTests: XCTestCase {
     func testMacro() throws {
         #if canImport(PrecomputedSearchPropertiesMacros)
